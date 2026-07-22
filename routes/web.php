@@ -9,3 +9,5 @@ Route::get('/', function () {
 
 Route::get('/membros', [MembroController::class, 'index'
 ]);
+
+Route::post('/membros', [MembroController::class, 'store']);

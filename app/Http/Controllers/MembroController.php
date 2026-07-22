@@ -10,4 +10,8 @@ class MembroController extends Controller
 {
     return view('membros');
 }
+public function store()
+{
+    return "Recebi os dados!";
+}
 }
